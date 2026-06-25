@@ -1,0 +1,129 @@
+@font-face {
+    font-family: young sarif;
+    src: url(recipe-page-main\assets\fonts\young-serif.ttf);
+}
+
+@font-face {
+    font-family: outfit;
+    src: url(recipe-page-main\assets\fonts\outfit.ttf);
+}
+
+body{
+    font-family: 'Outfit', sans-serif;
+}
+
+h1,h2{
+    font-family: 'Young Serif', serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color:  hsl(30, 54%, 90%);
+    min-width: 320px;
+}
+
+.main-div {
+    max-width: 650px;
+    min-width: 350px;
+    background-color: white;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 50px;
+}
+
+.top img {
+    width: 100%;
+    border-radius: 30px;
+}
+
+.time {
+     background-color: hsl(330, 100%, 98%);
+    border-radius: 20px;
+    height: 100%;
+    padding: 10px 0;
+}
+
+
+h3 {
+    font-family: young sarif;
+    color: darkmagenta;
+    position: relative;
+    left: 37px;
+}
+
+.time ul li {
+    margin: 10px;
+}
+
+h2 {
+    font-family: young sarif;
+    color: hsl(14, 45%, 36%);
+}
+
+.ingredinets {
+    border-bottom: .1px solid rgb(183, 176, 176);
+}
+
+.ingredinets ul li {
+    margin: 10px 0;
+    position: relative;
+    left: -20px;
+}
+
+.ingredinets ul {
+    margin: 25px 0;
+}
+
+.instructions {
+    border-bottom: .1px solid rgb(183, 176, 176);
+}
+
+.instructions ol {
+    margin: 25px -20px;
+}
+
+.instructions ol li {
+    margin: 10px 0;
+}
+
+.nutrition {
+
+}
+
+
+
+td, tr {
+    border-bottom: 1px solid rgb(183, 176, 176);
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+#white-border {
+    border-bottom: 20px solid white;
+}
+
+table tr td {
+    width: 300px;
+    height: 30px;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+table {
+    border-spacing: 0cap;
+    
+}
+
+span {
+    color: rgb(153, 34, 34);
+    font-weight: bold;
+}
+
+p{
+    font-size: 16px;
+}
